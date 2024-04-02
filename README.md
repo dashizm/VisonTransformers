@@ -16,7 +16,7 @@ Let’s build our own ViT step by step:
 
 Data Preparation:
 Load your image dataset.
-Resize images to a consistent size (e.g., 224x224 pixels).
+Resize images to a consistent size (e.g., 144x144 pixels).
 Convert images to tensors.
 Patch Extraction:
 Divide each image into patches (e.g., 16x16 patches).
@@ -41,6 +41,5 @@ During implementation, visualize the attention maps produced by the self-attenti
 Conclusion
 Vision Transformers have opened up exciting possibilities in computer vision. By combining the power of transformers with image data, we can achieve state-of-the-art performance on various tasks. So go ahead, experiment with ViTs, and unlock new insights from your images!
 
-Remember, every image is worth 16x16 words! 🌟
+Remember, every image is worth 16x16 words! 
 
-For more details and code examples, check out the official Torchvision documentation on Vision Transformers1.
